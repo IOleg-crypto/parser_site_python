@@ -27,8 +27,8 @@ To install and run this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/web-parser.git
-   cd web-parser
+   git clone https://github.com/IOleg-crypto/parser_site_python.git
+   cd parser_site
    ```
 
 2. Create a virtual environment (optional but recommended):
