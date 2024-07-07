@@ -39,9 +39,18 @@ To install and run this project, follow these steps:
    ```
 
 3. Install the required dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
+
+4. Alternatively, you can install the libraries directly using pip and then generate the requirements.txt file:
+
+```sh
+pip install requests beautifulsoup4
+pip freeze > requirements.txt
+
+```
 
 ## Usage
 
