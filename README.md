@@ -49,8 +49,9 @@ To install and run this project, follow these steps:
 ```sh
 pip install requests beautifulsoup4
 pip freeze > requirements.txt
-
 ```
+
+This will create or update the requirements.txt file with all the installed packages and their versions.
 
 ## Usage
 
@@ -87,4 +88,5 @@ if __name__ == "__main__":
 
 You can use this site to see instructions
 
-[Introduction](https://mate.academy/blog/ru/python-ru/python-web-parser/)
+[Introduction](https://mate.academy/blog/ru/python-ru/python-web-parser/) Little introduction
+[Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc.ru/bs4ru.html) Documentation about BeautifulSoup4 library

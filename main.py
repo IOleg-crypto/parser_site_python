@@ -2,14 +2,22 @@ import requests as pq
 from bs4 import BeautifulSoup
 
 
+def set_url(link_site: str) -> str:
+    url = link_site
+    return url
+
+
 def main():
-    url = "https://mate.academy/blog/ru/python-ru/python-web-parser/"
-    response = pq.get(url)
+    link = str(input("Write the url site : "))
+    response = pq.get(set_url(link))
 
     print(response.text)
 
     soup = BeautifulSoup(response.text, "html.parser")
     print(soup.prettify())
+
+    for link in soup.find_all('a'):
+        print(link.get('href'))
     """""" """
     titles = soup.select("h2.blog-title")
 
