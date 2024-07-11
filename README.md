@@ -86,8 +86,6 @@ if __name__ == "__main__":
     extract_data(soup)
 ```
 
-You can use this site to see instructions
-
 [Introduction](https://mate.academy/blog/ru/python-ru/python-web-parser/) Little introduction
 
 [Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc.ru/bs4ru.html) Documentation about BeautifulSoup4 library
